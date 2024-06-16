@@ -74,7 +74,7 @@ WHERE volunteer_id = 3004;
 DO $$
 DECLARE v_user_id INT;
 BEGIN
-    DELETE FROM volunteers WHERE first_name = 'Joe the Volunteer' RETURNING user_id INTO v_user_id;
+    DELETE FROM volunteers WHERE volunteer_id = 3008 RETURNING user_id INTO v_user_id;
     DELETE FROM users WHERE user_id = v_user_id;
 END $$;
 
