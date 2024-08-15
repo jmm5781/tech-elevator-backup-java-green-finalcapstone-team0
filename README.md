@@ -5,6 +5,8 @@ database interactions, a Vue.js frontend integrating custom and Vuetify componen
 between frontend and backend. Application authenticates user login at different privilege levels, displays animals available for adoption
 including search, details, and multiple photos per animal, supports creating/updating/deleting animals, stores images in the database as
 byte arrays, and has a community volunteer signup feature including email functionality with JavaMailSender.
+### Required software to run this project:
+* IntelliJ for Spring backend, VSCode with node modules installed for Vue frontend, PostgreSQL
 
 # Project Plan
 ## 1. Development Environment
