@@ -1,5 +1,12 @@
 
-# Animal Shelter Capstone Plan
+# Animal Shelter Capstone 
+* As an agile team of four software developers we created this web application using MVC with a Java/Spring backend, JDBC/PostgreSQL
+database interactions, a Vue.js frontend integrating custom and Vuetify components, and REST APIs, JSON and Axios for communication
+between frontend and backend. Application authenticates user login at different privilege levels, displays animals available for adoption
+including search, details, and multiple photos per animal, supports creating/updating/deleting animals, stores images in the database as
+byte arrays, and has a community volunteer signup feature including email functionality with JavaMailSender.
+
+# Project Plan
 ## 1. Development Environment
 ### Frontend:
 * [DONE] Ensure Node.js and Vue are installed.
